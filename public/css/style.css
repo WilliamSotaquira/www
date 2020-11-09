@@ -1,0 +1,884 @@
+/*----------------------------------------
+                Fuentes
+-----------------------------------------*/
+
+@font-face {
+    font-family: 'MyriadPro-BoldIt' !important;
+    src: url('/public/fonts/MyriadPro-BoldIt');
+    src: url('/public/fonts/MyriadPro-BoldIt.woff') format('woff'), url('/public/fonts/MyriadPro-BoldIt.ttf') format('truetype'), url('/public/fonts/MyriadPro-BoldIt.svg #MyriadPro-CondIt') format('svg'), url('/public/fonts/MyriadPro-BoldIt.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('/public/fonts/MyriadPro-Regular');
+    src: url('/public/fonts/MyriadPro-Regular.woff') format('woff'), url('/public/fonts/MyriadPro-Regular.ttf') format('truetype'), url('/public/fonts/MyriadPro-Regular.svg #MyriadPro-Regular') format('svg'), url('/public/fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro-Semibold';
+    src: url('/public/fonts/MyriadPro-Semibold');
+    src: url('/public/fonts/MyriadPro-Semibold.woff') format('woff'), url('/public/fonts/MyriadPro-Semibold.ttf') format('truetype'), url('/public/fonts/MyriadPro-Semibold.svg #MyriadPro-Regular') format('svg'), url('/public/fonts/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*----------------------------------------
+                Básicos
+-----------------------------------------*/
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    position: absolute;
+    float: left;
+    z-index: auto;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    font-family: 'MyriadPro-Regular';
+    font-size: 28px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body2 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    font-family: 'MyriadPro-Regular';
+    overflow-x: hidden;
+    font-size: 28px;
+}
+
+#body {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'MyriadPro-Regular';
+}
+
+header {
+    height: 10%;
+    background-color: #043f83;
+    width: 100%;
+    position: fixed;
+    float: left;
+    z-index: 3;
+}
+
+wrapper {
+    float: left;
+    width: 100%;
+    margin-top: 5.8%;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #043f83;
+    font-family: 'MyriadPro-Regular';
+    color: white;
+    font-size: 80% !important;
+    letter-spacing: 0.7px;
+    padding-top: 2%;
+    text-align: center;
+    float: left;
+    /* margin-top: -25px; */
+    position: fixed;
+    bottom: 0px;
+}
+
+.espacio {
+    margin-left: 0.5%;
+    margin-right: 0.7%;
+}
+
+#txt_foteer {
+    float: left;
+    width: 70%;
+    margin-left: 15%;
+    align-items: center;
+}
+
+#contenedor {
+    width: 100%;
+    max-width: 1000px;
+}
+
+nav div ul li a {
+    text-transform: uppercase;
+    font-family: 'MyriadPro-Regular';
+    color: white;
+    font-size: 80%;
+}
+
+nav div ul li a:hover {
+    font-family: 'MyriadPro-BoldIt';
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+
+/*----------------------------------------
+                Menú
+-----------------------------------------*/
+
+#menu {
+    width: 90%;
+    float: left;
+    text-transform: uppercase;
+    font-family: 'MyriadPro-Regular';
+    color: white !important;
+    font-size: 45%;
+    position: relative;
+    margin-left: 8%;
+    letter-spacing: 1.3px;
+}
+
+.menu1 {
+    /* position: relative; */
+    /* width: 10%; */
+    float: left;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.menu1 a:hover {
+    font-family: 'MyriadPro-BoldIt';
+    text-decoration: underline;
+}
+
+#logob {
+    float: left;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+}
+
+.menu2 {
+    position: relative;
+    width: 13%;
+    float: left;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.menu2 a:hover {
+    font-family: 'MyriadPro-BoldIt';
+    text-decoration: underline;
+}
+
+#img1 {
+    background-image: no-repeat;
+    float: right;
+    display: flex;
+    width: 100%;
+}
+
+
+/*----------------------------------------
+                Quienes Somos
+-----------------------------------------*/
+
+.vl {
+    border-left: 3px solid #043f80;
+    height: 280px;
+    float: left;
+    margin-left: 26%;
+    margin-top: 5%;
+}
+
+#parrafo {
+    width: 100%;
+    float: left;
+    margin-top: 8%;
+    position: relative;
+}
+
+#txt1 {
+    width: 19%;
+    position: relative;
+    float: left;
+    font-size: 50%;
+    text-transform: uppercase;
+    font-family: 'MyriadPro-BoldIt';
+    margin-left: 2%;
+}
+
+#txt2 {
+    font-size: 50%;
+    margin-left: 2%;
+    margin-top: 0;
+    width: 59%;
+    float: left;
+}
+
+#txt3 {
+    color: #818181;
+    font-size: 50%;
+    float: left;
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 45%;
+}
+
+.gris {
+    font-family: 'MyriadPro-BoldIt';
+}
+
+.azul {
+    color: #043f83;
+}
+
+#btn_incial {
+    float: left;
+    position: absolute;
+    margin-left: 76%;
+    margin-top: 40%;
+}
+
+
+/*----------------------------------------
+   Quienes Somos/Mision,vision,valores
+-----------------------------------------*/
+
+#iconos {
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+#inter {
+    float: left;
+    margin-top: 2%;
+    color: #818181;
+    font-size: 90%;
+    padding: 5%;
+    margin-bottom: 7%;
+    letter-spacing: 0.2px;
+    margin-left: 2%;
+}
+
+#mision {
+    float: left;
+    width: 30%;
+    position: relative;
+    margin-top: 8%;
+    font-size: 55%;
+    margin-left: 14%;
+    letter-spacing: 0.1px;
+}
+
+#valores {
+    float: left;
+    width: 29%;
+    position: relative;
+    margin-top: 8%;
+    font-size: 55%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+}
+
+.title2 {
+    text-transform: uppercase;
+    color: #043f83;
+    margin-bottom: 6%;
+    text-align: center;
+    margin-left: 28%;
+}
+
+#inter2 {
+    float: left;
+    color: #818181;
+    font-size: 90%;
+    margin-bottom: 6%;
+    margin-top: 7%;
+    letter-spacing: 0.1px;
+}
+
+.title3 {
+    text-transform: uppercase;
+    color: #043f83;
+    margin-bottom: 2%;
+    text-align: center;
+    float: left;
+}
+
+#inter3 {
+    float: left;
+    color: #818181;
+    font-size: 90%;
+    margin-bottom: 10%;
+    letter-spacing: 0.1px;
+}
+
+
+/*----------------------------------------
+       Franja azul /quienes somos
+-----------------------------------------*/
+
+#edificio {
+    float: left;
+    position: absolute;
+    width: 35%;
+    margin-top: -65%;
+    margin-left: 10%;
+}
+
+#azulbarra {
+    width: 100%;
+    margin: 0;
+    float: left;
+}
+
+#txt_blanco {
+    color: white;
+    float: left;
+}
+
+#blanco {
+    float: left;
+    position: absolute;
+    font-size: 50%;
+    color: white;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 54%;
+}
+
+.tituloblanco {
+    text-transform: uppercase;
+    margin-bottom: 15%;
+    letter-spacing: 0.7px;
+}
+
+#blancoparrafo {
+    margin-top: 5%;
+    letter-spacing: 0.2px;
+}
+
+ul {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    letter-spacing: 0.2px;
+}
+
+
+/*----------------------------------------
+               ALIANZAS
+-----------------------------------------*/
+
+.alianza {
+    width: 100%;
+    height: 50%;
+    float: left;
+    position: absolute;
+    margin-top: 5%;
+}
+
+#img_software {
+    float: left;
+    position: relative;
+}
+
+#software {
+    width: 55%;
+    float: left;
+    height: 420px;
+    margin-bottom: 8%;
+}
+
+#titulo_software {
+    float: left;
+    color: white;
+    position: absolute;
+    font-size: 70%;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    width: 10%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#txt_software {
+    width: 27%;
+    font-size: 52%;
+    float: left;
+    margin-top: 13%;
+    margin-left: 12%;
+    color: white;
+    position: absolute;
+    letter-spacing: 0.1px;
+}
+
+#facturacion {
+    width: 45%;
+    float: left;
+    height: 420px;
+}
+
+#titulo_facturacion {
+    float: left;
+    color: #353535;
+    position: absolute;
+    font-size: 70%;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    width: 10%;
+    margin-left: 17%;
+    margin-top: 5%;
+}
+
+#txt_facturacion {
+    width: 60%;
+    font-size: 52%;
+    float: left;
+    margin-top: 28%;
+    margin-left: 23%;
+    color: #353535;
+    letter-spacing: 0.1px;
+}
+
+#contable {
+    float: left;
+    margin-left: 15%;
+    position: absolute;
+    margin-top: 31%;
+}
+
+#electronica {
+    float: left;
+    margin-left: 34%;
+    margin-top: 6%;
+    position: relative;
+}
+
+
+/*----------------------------------------
+                Documentos
+-----------------------------------------*/
+
+.documentos {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-left: 2%;
+    margin-top: 7%;
+    margin-bottom: 8%;
+}
+
+#img_descarga {
+    float: left;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.enlaces {
+    float: left;
+    background-color: aliceblue;
+    margin-left: 50%;
+    width: 40%;
+}
+
+.logo_enlace {
+    height: 80px;
+    float: left;
+    background-color: #f4f4f4;
+    width: 100%;
+    color: #043f83;
+    font-size: 75%;
+}
+
+#enlace {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+#txt_enlace {
+    float: left;
+    width: 60%;
+    font-size: 80%;
+    margin-top: 2%;
+}
+
+.logo_enlace2 {
+    height: 80px;
+    float: left;
+    background-color: #ededed;
+    width: 100%;
+    font-size: 75%;
+}
+
+#enlace2 {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+#txt_enlace2 {
+    float: left;
+    width: 70%;
+    font-size: 80%;
+    margin-top: 2%;
+}
+
+#btn_descarga {
+    float: left;
+    position: absolute;
+    margin-top: 62%;
+    margin-left: 23%;
+}
+
+#descargas_01 {
+    float: left;
+    position: absolute;
+    width: 85%;
+    margin-left: 15%;
+}
+
+.color_enlace {
+    color: #353535;
+}
+
+.color_enlaces2 {
+    color: #043f83;
+}
+
+
+/*----------------------------------------
+               Clientes
+-----------------------------------------*/
+
+#clientes {
+    float: left;
+    position: relative;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
+#clientes_txt {
+    text-transform: uppercase;
+    font-size: 60%;
+    color: #043f83;
+    letter-spacing: 0.7px;
+    text-align: center;
+    margin-left: 4%;
+}
+
+#img_logos {
+    margin-left: 10%;
+    float: left;
+    width: 90%;
+    margin-bottom: 8%;
+}
+
+.logo {
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+    width: 20%;
+    margin-top: 7%;
+}
+
+
+/* Centre the page */
+
+.body {
+    display: block;
+    margin: 0 auto;
+    width: 576px;
+}
+
+
+/*----------------------------------------
+         Formulario de contacto
+-----------------------------------------*/
+
+
+/* Centre the form within the page */
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    color: #043f83;
+    font-family: 'MyriadPro-Regular';
+    font-size: 70%;
+    margin-left: 55%;
+    position: absolute;
+    margin-top: 100px;
+    padding: 15px;
+}
+
+
+/* Style the text boxes */
+
+input,
+textarea {
+    width: 439px;
+    height: 27px;
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    color: #043f83;
+}
+
+textarea {
+    height: 313px;
+}
+
+input,
+textarea {
+    width: 350px;
+    height: 27px;
+    background: #fff;
+    font-family: 'MyriadPro-Regular';
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #50310c;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #ffa922;
+}
+
+#submit {
+    width: 127px;
+    height: 38px;
+    background-color: #043f83;
+    color: #F5F5F4;
+    letter-spacing: 2px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+    font-family: 'MyriadPro-BoldIt';
+    font-size: 20px;
+}
+
+#submit:hover {
+    opacity: .90;
+}
+
+
+/*----------------------------------------
+               Responsive
+-----------------------------------------*/
+
+@media screen and (max-width:800px) {
+    body {
+        overflow-y: visible;
+    }
+    body2 {
+        overflow-y: visible;
+    }
+    wrapper {
+        margin-top: 13%;
+    }
+    .menu1 {
+        display: none;
+    }
+    .menu2 {
+        display: none;
+    }
+    #logob {
+        margin-top: 2%;
+        margin-left: -2%;
+    }
+    #txt_foteer {
+        font-size: 85%;
+        width: 63%;
+        margin-left: 20%;
+        line-height: 130%;
+    }
+    /*----------------------------------------
+                 Index
+-----------------------------------------*/
+    /*----------------------------------------
+               Quienes somos
+-----------------------------------------*/
+    .vl {
+        display: none;
+    }
+    #txt1 {
+        width: 45%;
+        font-size: 60%;
+        margin-left: 13%;
+    }
+    #txt2 {
+        width: 70%;
+        font-size: 50%;
+        margin-left: 13%;
+        margin-bottom: 3%;
+    }
+    #txt3 {
+        width: 75%;
+        font-size: 51%;
+        margin-left: 13%;
+    }
+    .title {
+        margin-left: 43%;
+    }
+    #mision {
+        width: 77%;
+        margin-left: 10%;
+        font-size: 58%;
+    }
+    #valores {
+        width: 70%;
+        font-size: 58%;
+        margin-left: 16%;
+        margin-top: 1%;
+    }
+    .title3 {
+        margin-bottom: 3%;
+    }
+    #inter3 {
+        width: 90%;
+        margin-left: 3%;
+    }
+    #edificio {
+        margin-top: -220px;
+        margin-left: 35%;
+        width: 25%;
+    }
+    #azulbarra {}
+    #txt_blanco {
+        background-color: aqua;
+    }
+    #blancoparrafo {
+        letter-spacing: 0.2px;
+    }
+    #blanco {
+        width: 70%;
+        margin-left: 15%;
+        font-size: 52%;
+        margin-top: %;
+    }
+    /*----------------------------------------
+               Alianza
+-----------------------------------------*/
+    .alianza {
+        margin-top: 0.2%;
+    }
+    #software {
+        width: 100%;
+    }
+    #titulo_software {
+        width: 60%;
+        margin-left: 17%;
+        margin-top: 9%;
+        letter-spacing: 1px;
+    }
+    #txt_software {
+        width: 63%;
+        margin-top: 18%;
+        margin-left: 17%;
+    }
+    #contable {
+        margin-top: 54%;
+        width: 60%;
+        margin-left: 32%;
+    }
+    #facturacion {
+        width: 100%;
+    }
+    #titulo_facturacion {
+        width: 57%;
+        letter-spacing: 1px;
+    }
+    #txt_facturacion {
+        width: 60%;
+        margin-top: 14%;
+        width: 63%;
+        margin-left: 17%;
+    }
+    #electronica {
+        float: left;
+        margin-left: 34%;
+        margin-top: 6%;
+        position: relative;
+    }
+    /*----------------------------------------
+                Documentos
+-----------------------------------------*/
+    #img_descarga {
+        width: 90%;
+        margin-left: -4%;
+    }
+    .enlaces {
+        margin-top: 75%;
+        margin-left: 10%;
+        width: 75%;
+        margin-bottom: 10%;
+    }
+    #txt_enlace {
+        float: left;
+        width: 60%;
+        font-size: 80%;
+        margin-top: 2%;
+    }
+    .logo_enlace2 {
+        height: 80px;
+        float: left;
+        background-color: #ededed;
+        width: 100%;
+        font-size: 75%;
+    }
+    #enlace2 {
+        width: 15%;
+    }
+    #txt_enlace2 {
+        width: 40%;
+    }
+    /*----------------------------------------
+                Contacto
+-----------------------------------------*/
+    #clientes_txt {
+        margin-top: 5%;
+        margin-left: -1%;
+    }
+    #img_logos {
+        margin-bottom: 18%;
+    }
+    .logo {
+        width: 40%;
+    }
+    /*----------------------------------------
+            Contacto form
+-----------------------------------------*/
+    form {
+        margin-left: 10%;
+        position: absolute;
+        margin-top: 300px;
+        padding: 15px;
+        margin-bottom: 150px;
+    }
+}
