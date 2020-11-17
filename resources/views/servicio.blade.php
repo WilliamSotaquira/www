@@ -31,32 +31,36 @@
     @include('navbar_menu')
 
     <!-- CONTENT -->
-    <section class="clearfix">
+    <header class="clearfix">
         <!-- <div class="container-fluid mt-5" style="height: 100vh; background-color: white; position: absolute;"> -->
-        <div class="container-fluid" style="width: 100vw;">
+        <div class="container-fluid mt-3">
 
 
-            <div class="row ">
-                <div class="col-md-6 d-flex justify-content-center">
-                    <div class="imgs_servicio p-4"><img src="" id="image" alt="Mujer" width="420vw;"></div>
+            <div class="row">
+                <div class="col-md-6 d-flex text-center align-items-center justify-content-center">
+                    <div class="content-right">
+                        <img src="" class="img-fluid mb-md-5" id="image" alt="Mujer">
+                    </div>
                 </div>
-                <div class="col-xs-12 col-md-5 center-block">
-                    <span class="clearfix">
-                        <div class="mt-md-5 pt-md-5">
+                <div class="col-xs-12 col-md-6 mx-auto d-flex justify-content-center">
+                    <div class="content-left">
+                        <div class="mt-md-auto ml-sm-4 pt-md-4">
                             <span id="ser_titulo"></span>
+                            <div class="w-100"></div>
                             <span id="ser_parrafo"></span>
                         </div>
-                        <div class="m-5 d-flex justify-content-center">
+                        <div class="w-100"></div>
+                        <div class="d-flex mx-auto justify-content-center mb-5">
                             <a href="#" class="m-2" id="btn_l"><img src="{{asset('/images/btn_left.png')}}" alt="boton_left" width="70vh"></a>
                             <a href="#" class="m-2" id="btn_r"><img src="{{asset('/images/btn_right.png')}}" alt="boton_rigth" width="70vh"></a>
                         </div>
-                    </span>
+                    </div>
 
                 </div>
             </div>
             <!-- </div> -->
         </div>
-    </section>
+    </header>
     <!-- END CONTENT -->
 
     <div>
@@ -78,26 +82,26 @@
     $("#btn_l").hide();
 
     titulo = [
-        '<h1 class="t_service mt-4">Asesoría Contable</h1>',
-        '<h1 class="t_service mt-4">ASESORÍA TRIBUTARIA</h1>',
-        '<h1 class="t_service mt-4">OUTSOURCING</h1>',
-        '<h1 class="t_service mt-4">REVISORÍA FISCAL</h1>',
-        '<h1 class="t_service mt-4">ASESORÍA LEGAL Y ADMINISTRATIVA</h1>',
-        '<h1 class="t_service mt-4">AUDIOTORÍA GENERAL EXTERNA</h1>',
-        '<h1 class="t_service mt-4">INGENIERÍA DE PROCESOS Y SISTEMA DE INFORMACIÓN</h1>',
-        '<h1 class="t_service mt-4">NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA</h1>'
+        '<h1 class="t_service mt-4 d-flex mx-auto text-center justify-content-center">Asesoría Contable</h1>',
+        '<h1 class="t_service mt-4 d-flex mx-auto text-center justify-content-center">ASESORÍA TRIBUTARIA</h1>',
+        '<h1 class="t_service mt-4 d-flex mx-auto text-center justify-content-center">OUTSOURCING</h1>',
+        '<h1 class="t_service mt-4 d-flex mx-auto text-center justify-content-center">REVISORÍA FISCAL</h1>',
+        '<h1 class="t_service mt-4 d-flex mx-auto text-center justify-content-center">ASESORÍA LEGAL Y ADMINISTRATIVA</h1>',
+        '<h1 class="t_service mt-4 d-flex mx-auto text-center justify-content-center">AUDIOTORÍA GENERAL EXTERNA</h1>',
+        '<h1 class="t_service mt-4 d-flex mx-auto text-center justify-content-center">INGENIERÍA DE PROCESOS Y SISTEMA DE INFORMACIÓN</h1>',
+        '<h1 class="t_service mt-4 d-flex mx-auto text-center justify-content-center">NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA</h1>'
 
     ];
 
     parrafo = [
-        '<span><p class="p_service justify-content-center mt-4">Entendemos que la contabilidad es la disciplina que estudia, mide y analiza el patrimonio y la situación económica y financiera de una empresa u organización. Por esto, contamos con un grupo profesional dedicado a planear y organizar su información contable, con el objetivo de facilitar la toma de decisiones empresariales.</p></span>',
-        '<span><p class="p_service justify-content-center mt-4">Esta asesoría tributaria busca hacer más rentable la operación de cada cliente, ya que optimiza su estructura, mediante el diseño e implementación de estrategias de planeación y control que determinan el cálculo de obligaciones tributarias para mejorar el flujo de efectivo, minimizando así la carga impositiva y evitando reclamaciones de las autoridades competentes. <br><br>La asesoría que brindamos se complementa con interpretaciones de las leyes tributarias, respuesta a requerimientos y análisis de anexos y soportes de las declaraciones.</p></span>',
-        '<span><p class="p_service justify-content-center mt-4">Mediante el servicio de outsourcing contable, organizamos y manejamos directamente el Departamento Contable de su empresa. <br><br> Con esto, buscamos generar valor en las decisiones financieras y gerenciales de nuestros clientes. </p></span>',
-        '<span><p class="p_service justify-content-center mt-4">Nosotros, como órganos de fiscalización, nos encargamos de dictaminar los estados financieros, de revisar y evaluar sistemáticamente los componentes y elementos que integran el control interno. Todo esto, de forma oportuna e independiente de acuerdo con las normas de auditoria generalmente aceptadas y en los términos que señale la ley.</p></span>',
-        '<span><p class="p_service justify-content-center mt-4">La asesoría legal y administrativa consiste en orientar a nuestros clientes desde la constitución de la sociedad, hasta la implementación de políticas y programas para la organización empresarial, asesoramos la elaboración de manuales de procedimientos y nos anticipamos al efecto de los cambios que se pueden presentar en torno a las necesidades tecnológicas y del mercado. <br><br> El servicio de asesoría de Y & G Consultores, cubre empresas industriales, comerciales y de servicios, de economía solidaria, cooperativas y fondos de empleados y empresas del sector estatal. <br><br> Por otra parte, Y & G Consultores también asesora y realiza liquidación de sociedades.</p></span>',
-        '<span><p class="p_service justify-content-center mt-4">Aportamos a la construcción de confianza y aclaramos problemas existentes a través de un examen sistemático de los estados financieros y de los registros y transacciones realizadas, en el cual se analizan y expresan opiniones acerca de:<ul><li class="ml-2"  style="list-style:none; color:gray; font-size: 12px;" >La evidencia sobre la propiedad y custodia de títulos.</li><li class="ml-2"  style="list-style:none; color:gray; font-size: 12px;" >El valor de las trasferencias.</li><li class="ml-2"  style="list-style:none; color:gray; font-size: 12px;" >La constitución de los beneficios que provienen de inversiones.</li><li class="ml-2"  style="list-style:none; color:gray; font-size: 12px;" >La clasificación correcta de las inversiones en los estados financieros.</li><li class="ml-2"  style="list-style:none; color:gray; font-size: 12px;" >El desglose adecuado de las pignoraciones, hipotecas, garantías y otros aspectos relacionados con el valor registrado.</li></ul></p></span>',
-        '<span><p class="p_service justify-content-center mt-4">Nuestros especialistas en Ingeniería de Procesos y Sistemas de Información fundamentan el desarrollo empresarial, a través de la optimización de recursos de la empresa en su estructura organizacional, en los circuitos operativos, en los procesos y en su entorno. Diagnosticamos, diseñamos y ponemos en marcha, procesos y sistemas de información, integrándolos a la cadena de valor.<br><br>Y&G Consultores S.A.S. hace de su compañía una organización más eficiente, competitiva y rentable asumiendo en el outsourcing, operaciones y procesos que distraen a la gerencia en actividades que no son el core del negocio.</p></span>',
-        '<span><p class="p_service justify-content-center mt-4">Las NIIF corresponden a un conjunto único de normas legalmente exigibles y globalmente aceptadas, que requieren que los estados financieros contengan información comparable, transparente y de alta calidad que ayuden a tomar decisiones económicas.<br><br>Teniendo en cuenta lo anterior, Y&G Consultores asesora en correcta aplicación de estas normas, dentro de los estándares internacionales de acuerdo con el decreto 4946 de 2011.</p</span>>'
+        '<span><p class="p_service mt-5 d-flex mx-auto justify-content-center">Entendemos que la contabilidad es la disciplina que estudia, mide y analiza el patrimonio y la situación económica y financiera de una empresa u organización. Por esto, contamos con un grupo profesional dedicado a planear y organizar su información contable, con el objetivo de facilitar la toma de decisiones empresariales.</p></span>',
+        '<span><p class="p_service mt-5 d-flex mx-auto justify-content-center">Esta asesoría tributaria busca hacer más rentable la operación de cada cliente, ya que optimiza su estructura, mediante el diseño e implementación de estrategias de planeación y control que determinan el cálculo de obligaciones tributarias para mejorar el flujo de efectivo, minimizando así la carga impositiva y evitando reclamaciones de las autoridades competentes. <br><br>La asesoría que brindamos se complementa con interpretaciones de las leyes tributarias, respuesta a requerimientos y análisis de anexos y soportes de las declaraciones.</p></span>',
+        '<span><p class="p_service mt-5 d-flex mx-auto justify-content-center">Mediante el servicio de outsourcing contable, organizamos y manejamos directamente el Departamento Contable de su empresa. <br><br> Con esto, buscamos generar valor en las decisiones financieras y gerenciales de nuestros clientes. </p></span>',
+        '<span><p class="p_service mt-5 d-flex mx-auto justify-content-center">Nosotros, como órganos de fiscalización, nos encargamos de dictaminar los estados financieros, de revisar y evaluar sistemáticamente los componentes y elementos que integran el control interno. Todo esto, de forma oportuna e independiente de acuerdo con las normas de auditoria generalmente aceptadas y en los términos que señale la ley.</p></span>',
+        '<span><p class="p_service mt-5 d-flex mx-auto justify-content-center">La asesoría legal y administrativa consiste en orientar a nuestros clientes desde la constitución de la sociedad, hasta la implementación de políticas y programas para la organización empresarial, asesoramos la elaboración de manuales de procedimientos y nos anticipamos al efecto de los cambios que se pueden presentar en torno a las necesidades tecnológicas y del mercado. <br><br> El servicio de asesoría de Y & G Consultores, cubre empresas industriales, comerciales y de servicios, de economía solidaria, cooperativas y fondos de empleados y empresas del sector estatal. <br><br> Por otra parte, Y & G Consultores también asesora y realiza liquidación de sociedades.</p></span>',
+        '<span><p class="p_service mt-5 d-flex mx-auto justify-content-center">Aportamos a la construcción de confianza y aclaramos problemas existentes a través de un examen sistemático de los estados financieros y de los registros y transacciones realizadas, en el cual se analizan y expresan opiniones acerca de: <div class="p_service d-flex mx-auto justify-content-center pl-3" style="line-height: 100%;"><br>La evidencia sobre la propiedad y custodia de títulos.<br>El valor de las trasferencias.<br>La constitución de los beneficios que provienen de inversiones.<br>La clasificación correcta de las inversiones en los estados financieros.<br>El desglose adecuado de las pignoraciones, hipotecas, garantías y otros aspectos relacionados con el valor registrado.<br></div></p></span>',
+        '<span><p class="p_service mt-5 d-flex mx-auto justify-content-center">Nuestros especialistas en Ingeniería de Procesos y Sistemas de Información fundamentan el desarrollo empresarial, a través de la optimización de recursos de la empresa en su estructura organizacional, en los circuitos operativos, en los procesos y en su entorno. Diagnosticamos, diseñamos y ponemos en marcha, procesos y sistemas de información, integrándolos a la cadena de valor.<br><br>Y&G Consultores S.A.S. hace de su compañía una organización más eficiente, competitiva y rentable asumiendo en el outsourcing, operaciones y procesos que distraen a la gerencia en actividades que no son el core del negocio.</p></span>',
+        '<span><p class="p_service mt-5 d-flex mx-auto justify-content-center">Las NIIF corresponden a un conjunto único de normas legalmente exigibles y globalmente aceptadas, que requieren que los estados financieros contengan información comparable, transparente y de alta calidad que ayuden a tomar decisiones económicas.<br><br>Teniendo en cuenta lo anterior, Y&G Consultores asesora en correcta aplicación de estas normas, dentro de los estándares internacionales de acuerdo con el decreto 4946 de 2011.</p</span>'
 
 
     ];

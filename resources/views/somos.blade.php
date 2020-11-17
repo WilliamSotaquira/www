@@ -42,7 +42,7 @@
     </section>
     <div class="container-fluid ">
         <div class="row pb-5" style="background-color: white">
-            <div class="col-10 offset-2 pt-5 pb-4">
+            <div class="col-md-10 offset-md-2 pt-5 pb-4">
                 <div class="pl-4 pb-0">
                     <div id="txt1"><span class=" font-weight-bold text-uppercase font-italic">somos Y&G consultores,</span></div>
                     <div id="txt2"><span class="font-weight-normal">el aliado para tomar sus mejores decisiones gerenciales.</span>

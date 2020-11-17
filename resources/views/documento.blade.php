@@ -36,61 +36,56 @@
    <section>
       <div class="container-fluid bg-white">
          <div class="row">
-            <div class="col-xs-12 col-md-6 mt-4 ml-0 mr-0">
-               <img src="{{asset('/images/descargas_01.png')}}" width="50%" class="img-fluid imagen_doc bg-warning float-left text-end">
+            <div class="col-xs-12 col-md-6 mr-0 pr-0">
+               <div id="content-img d-flex mx-auto">
+                  <img src="{{asset('/images/descargas_01.png')}}" alt="" style="max-width: 100%; height: auto;" class="img-fluid py-3 my-3 pl-5">
+               </div>
             </div>
 
-            <div class="col-xs-12 col-md-6 pt-4 m-0">
+            <div class="col-xs-12 col-md-6 ml-0 pl-0">
+               <div class="content-tabs pb-5 mb-5">
+                  <div class="w-100 p-3"></div>
 
-               <div class="row logo_enlace">
-                  <div id="enlace">
-                     <div style="top:30px; float: left"><img src="resourses/descargas_img.png" width="60%"></div>
-                  </div>
-                  <a href="https://www.dian.gov.co/Paginas/CalendarioTributario.aspx">
-                     <div id="txt_enlace"><span class="color_enlaces2">Otros Calendarios DIAN</span></div>
-                  </a>
-               </div>
-
-               <div class="row logo_enlace2">
-                  <div id=" enlace2">
-                     <div style="top:30px; float: left"><img src="resourses/descargas_img2.png" width="60%"></div>
-                  </div>
-                  <a href="https://www.shd.gov.co/shd/calendario-tributario">
-                     <div id="txt_enlace2"><span class="color_enlace">Calendario Distrital</span></div>
-                  </a>
-               </div>
-
-               <div class="row logo_enlace2">
-                  <div id="enlace">
-                     <div style="float: left"><img src="resourses/descargas_img.png" width="60%"></div>
+                  <div class="tab-1">
+                     <span><img src="/images/descargas_img.png" class="m-2" width="10%"> <a class="link-docs-1" href="https://www.dian.gov.co/Paginas/CalendarioTributario.aspx"> Otros Calendarios DIAN</a></span>
                   </div>
 
-                  <a href="https://www.dolar-colombia.com/">
-                     <div id="txt_enlace"><span class="color_enlaces2">TRM</span></div>
-                  </a>
-               </div>
-               <div class="row logo_enlace2">
-                  <div id="enlace2">
-                     <div style="top:30px; float: left"><img src="resourses/descargas_img2.png" width="60%"></div>
+                  <div class="tab-2">
+                     <span><img src="/images/descargas_img2.png" class="m-2" width="10%"> <a class="link-docs-2" href="https://www.shd.gov.co/shd/calendario-tributario">Calendario Distrital</a></span>
                   </div>
 
-                  <a href="https://www.banrep.gov.co/es/cambiaria/4114">
-                     <div id="txt_enlace2"><span class="color_enlace">Formularios BANREP</span></div>
-                  </a>
-               </div>
-               <div class="row logo_enlace2">
-                  <div id="enlace">
-                     <div style="top:30px; float: left"><img src="resourses/descargas_img.png" width="60%"></div>
+                  <div class="tab-1">
+                     <span><img src="/images/descargas_img.png" class="m-2" width="10%"> <a class="link-docs-1" href="https://www.dolar-colombia.com/">TRM</a></span>
                   </div>
 
-                  <div id="txt_enlace">Calendario Facturación Electrónica</div>
-               </div>
+                  <div class="tab-2">
+                     <span><img src="/images/descargas_img2.png" class="m-2" width="10%"> <a class="link-docs-2" href="https://www.banrep.gov.co/es/cambiaria/4114">Formularios BANREP</a></span>
+                  </div>
 
+                  <div class="tab-1">
+                     <span><img src="/images/descargas_img.png" class="m-2" width="10%"> <a class="link-docs-1" href="https://www.dolar-colombia.com/">Calendario Facturación Electrónica</a></span>
+                  </div>
+                  <div>
+                     <!-- <div id="txt_enlace">Calendario Facturación Electrónica</div> -->
+                  </div>
+               </div>
             </div>
          </div>
       </div>
-
    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    <!-- END CONTENT -->
    <section>
